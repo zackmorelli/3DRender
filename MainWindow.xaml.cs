@@ -26,12 +26,11 @@ namespace _3DRender
         public MainWindow(string path)
         {
             InitializeComponent();
-
             ModelVisual3D model = new ModelVisual3D();
             model.Content = Display3d(path);
             viewPort3d.Children.Add(model);
         }
-
+        
         private Model3D Display3d(string path)
         {
             Model3D tmodel = null;
@@ -45,7 +44,6 @@ namespace _3DRender
 
                 //Load the 3D model file
                 tmodel= import.Load(path);
-               
             }
             catch (Exception e)
             {
