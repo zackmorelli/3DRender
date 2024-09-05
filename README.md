@@ -8,3 +8,5 @@ This is a helper program for CollisionCheck. It displays a 3D image of the path 
 The image appears automatically when CollisionCheck is done with its analysis for each beam. This helps the dosimitrists visualize the situation and understand what the CollisionCheck program is doing.
 
 The CollisionCheck program explicitly notifies users of any potential collisions it detects per beam. The images displayed by 3DRender are to help the dosimitrists visualize the potential collision.
+
+Please note that 3DRender uses a library called HelixToolkit to render 3D images.
